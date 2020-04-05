@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.scss';
 
+import Names from './components/Names';
+
 function App() {
   return (
     <main className="App">
-      React Hooks
+      <Names />
     </main>
   );
 }
